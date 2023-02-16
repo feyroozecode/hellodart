@@ -1,3 +1,7 @@
 void main() {
-  print('Salut on utlise git ');
+  showHi('Ali Hisham');
+}
+
+showHi(String name) {
+  print('Salut ${name}');
 }
